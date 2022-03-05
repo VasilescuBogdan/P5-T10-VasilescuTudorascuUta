@@ -1,1 +1,1 @@
-# P5-T10-VasilescuTudorascuUta
+# Vasilescu Teodor Bogdan, Tudorascu Gabriel Sorin, Uta Eduard Stefan
