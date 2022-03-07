@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
   <head>
     <title>Car Renting</title>
@@ -37,13 +36,13 @@
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item active"><a href="index.php" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
+	          <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+	          <li class="nav-item active"><a href="about.php" class="nav-link">About</a></li>
 	          <li class="nav-item"><a href="services.php" class="nav-link">Services</a></li>
 	          <li class="nav-item"><a href="pricing.php" class="nav-link">Pricing</a></li>
 	          <li class="nav-item"><a href="car.php" class="nav-link">Cars</a></li>
 	          <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
-			  <li class="nav-item"><a href="Login.php" class="nav-link">Login</a></li>
+			 <li class="nav-item"><a href="Login.php" class="nav-link">Login</a></li>
 			  <li class="nav-item"><a href="Register.php" class="nav-link">Register</a></li>
 	        </ul>
 	      </div>
@@ -51,173 +50,18 @@
 	  </nav>
     <!-- End Nav -->
     
-	  <!--Top Text on image-->
-    <div class="hero-wrap ftco-degree-bg" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('images/bg_3.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
-        <div class="row no-gutters slider-text justify-content-start align-items-center justify-content-center">
-          <div class="col-lg-8 ftco-animate">
-          	<div class="text w-100 text-center mb-md-5 pb-md-5">
-	            <h1 class="mb-4">Fast &amp; Easy Way To Rent A Car</h1>
-	            <p style="font-size: 18px;">One of our top priorities is to adjust each package we offer to our customer's exact needs</p>
-            </div>
+        <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-start">
+          <div class="col-md-9 ftco-animate pb-5">
+          	<p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>About us <i class="ion-ios-arrow-forward"></i></span></p>
+            <h1 class="mb-3 bread">About Us</h1>
           </div>
         </div>
       </div>
-    </div>
-	  <!--End Top Text on image-->
-
-	  <!--Search Reserve -->
-     <section class="ftco-section ftco-no-pt bg-light">
-    	<div class="container">
-    		<div class="row no-gutters">
-    			<div class="col-md-12	featured-top">
-    				<div class="row no-gutters">
-	  					<div class="col-md-4 d-flex align-items-center">
-	  						<form action="#" class="request-form ftco-animate bg-primary">
-		          		<h2>Make your trip</h2>
-			    				<div class="form-group">
-			    					<label for="" class="label">Pick-up location</label>
-			    					<input type="text" class="form-control" placeholder="City, Airport, Station, etc">
-			    				</div>
-			    				<div class="form-group">
-			    					<label for="" class="label">Drop-off location</label>
-			    					<input type="text" class="form-control" placeholder="City, Airport, Station, etc">
-			    				</div>
-			    				<div class="d-flex">
-			    					<div class="form-group mr-2">
-			                <label for="" class="label">Pick-up date</label>
-			                <input type="text" class="form-control" id="book_pick_date" placeholder="Date">
-			              </div>
-			              <div class="form-group ml-2">
-			                <label for="" class="label">Drop-off date</label>
-			                <input type="text" class="form-control" id="book_off_date" placeholder="Date">
-			              </div>
-		              </div>
-		              <div class="form-group">
-		                <label for="" class="label">Pick-up time</label>
-		                <input type="text" class="form-control" id="time_pick" placeholder="Time">
-		              </div>
-			            <div class="form-group">
-			              <input type="submit" value="Search" class="btn btn-secondary py-3 px-4">
-			            </div>
-			    			</form>
-	  					</div>
-	  					<div class="col-md-8 d-flex align-items-center">
-	  						<div class="services-wrap rounded-right w-100">
-	  							<h3 class="heading-section mb-4">Better Way to Rent Your Perfect Cars</h3>
-	  							<div class="row d-flex mb-4">
-					          <div class="col-md-4 d-flex align-self-stretch ftco-animate">
-					            <div class="services w-100 text-center">
-				              	<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-route"></span></div>
-				              	<div class="text w-100">
-					                <h3 class="heading mb-2">Choose Your Pickup Location</h3>
-				                </div>
-					            </div>      
-					          </div>
-					          <div class="col-md-4 d-flex align-self-stretch ftco-animate">
-					            <div class="services w-100 text-center">
-				              	<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-handshake"></span></div>
-				              	<div class="text w-100">
-					                <h3 class="heading mb-2">Select the Best Deal</h3>
-					              </div>
-					            </div>      
-					          </div>
-					          <div class="col-md-4 d-flex align-self-stretch ftco-animate">
-					            <div class="services w-100 text-center">
-				              	<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-rent"></span></div>
-				              	<div class="text w-100">
-					                <h3 class="heading mb-2">Reserve Your Rental Car</h3>
-					              </div>
-					            </div>      
-					          </div>
-					        </div>
-					        <p><a href="car.html" class="btn btn-primary py-3 px-4">Reserve Your Perfect Car</a></p>
-	  						</div>
-	  					</div>
-	  				</div>
-				</div>
-  			</div>
-		 </div>
     </section>
-	  <!--End Search Reserve -->
 
-	 <!--Featured Vehicle-->
-    <section class="ftco-section ftco-no-pt bg-light">
-    	<div class="container">
-    		<div class="row justify-content-center">
-          <div class="col-md-12 heading-section text-center ftco-animate mb-5">
-          	<span class="subheading">What we offer</span>
-            <h2 class="mb-2">Featured Vehicles</h2>
-          </div>
-        </div>
-    		<div class="row">
-    			<div class="col-md-12">
-    				<div class="carousel-car owl-carousel">
-    					<div class="item">
-    						<div class="car-wrap rounded ftco-animate">
-		    					<div class="img rounded d-flex align-items-end" style="background-image: url(images/car-1.jpg);">
-		    					</div>
-		    					<div class="text">
-		    						<h2 class="mb-0"><a href="#">Mercedes Slk</a></h2>
-		    						<div class="d-flex mb-3">
-			    						<span class="cat">Convertible</span>
-			    						<p class="price ml-auto">$500 <span>/day</span></p>
-		    						</div>
-		    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="#" class="btn btn-secondary py-2 ml-1">Details</a></p>
-		    					</div>
-		    				</div>
-    					</div>
-    					<div class="item">
-    						<div class="car-wrap rounded ftco-animate">
-		    					<div class="img rounded d-flex align-items-end" style="background-image: url(images/car-2.jpg);">
-		    					</div>
-		    					<div class="text">
-		    						<h2 class="mb-0"><a href="#">Range Rover Evoque</a></h2>
-		    						<div class="d-flex mb-3">
-			    						<span class="cat">Suv</span>
-			    						<p class="price ml-auto">$500 <span>/day</span></p>
-		    						</div>
-		    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="#" class="btn btn-secondary py-2 ml-1">Details</a></p>
-		    					</div>
-		    				</div>
-    					</div>
-    					<div class="item">
-    						<div class="car-wrap rounded ftco-animate">
-		    					<div class="img rounded d-flex align-items-end" style="background-image: url(images/car-3.jpg);">
-		    					</div>
-		    					<div class="text">
-		    						<h2 class="mb-0"><a href="#">McLaren 720S</a></h2>
-		    						<div class="d-flex mb-3">
-			    						<span class="cat">Hypercar</span>
-			    						<p class="price ml-auto">$500 <span>/day</span></p>
-		    						</div>
-		    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="#" class="btn btn-secondary py-2 ml-1">Details</a></p>
-		    					</div>
-		    				</div>
-    					</div>
-    					<div class="item">
-    						<div class="car-wrap rounded ftco-animate">
-		    					<div class="img rounded d-flex align-items-end" style="background-image: url(images/car-4.jpg);">
-		    					</div>
-		    					<div class="text">
-		    						<h2 class="mb-0"><a href="#">Ford Mustang</a></h2>
-		    						<div class="d-flex mb-3">
-			    						<span class="cat">Coupe</span>
-			    						<p class="price ml-auto">$500 <span>/day</span></p>
-		    						</div>
-		    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="#" class="btn btn-secondary py-2 ml-1">Details</a></p>
-		    					</div>
-		    				</div>
-    					</div>
-    				</div>
-    			</div>
-    		</div>
-    	</div>
-    </section>
-	  <!--Featured Vehicle-->
-	  
-	  <!--About US-->
     <section class="ftco-section ftco-about">
 			<div class="container">
 				<div class="row no-gutters">
@@ -226,7 +70,7 @@
 					<div class="col-md-6 wrap-about ftco-animate">
 	          <div class="heading-section heading-section-white pl-md-5">
 	          	<span class="subheading">About us</span>
-	            <h2 class="mb-4">Welcome to Car Renting</h2>
+	            <h2 class="mb-4">Welcome to Carbook</h2>
 
 	            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
 	            <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
@@ -236,61 +80,7 @@
 				</div>
 			</div>
 		</section>
-	  	<!--End About US-->
-	  
-		<!--Services-->
-		<section class="ftco-section">
-			<div class="container">
-				<div class="row justify-content-center mb-5">
-          <div class="col-md-7 text-center heading-section ftco-animate">
-          	<span class="subheading">Services</span>
-            <h2 class="mb-3">Our Latest Services</h2>
-          </div>
-        </div>
-				<div class="row">
-					<div class="col-md-3">
-						<div class="services services-2 w-100 text-center">
-            	<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-wedding-car"></span></div>
-            	<div class="text w-100">
-                <h3 class="heading mb-2">Wedding Ceremony</h3>
-                <p>We offer a range of packages to suit every budget so you can be sure of a weedding car rental that is affordable.Don't
-					forget to book your honeymoon car.</p>
-              </div>
-            </div>
-					</div>
-					<div class="col-md-3">
-						<div class="services services-2 w-100 text-center">
-            	<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-transportation"></span></div>
-            	<div class="text w-100">
-                <h3 class="heading mb-2">City Transfer</h3>
-                <p>We offer you posibility to rent a car from a city and drop off in another and make your trip easy and carefree.</p>
-              </div>
-            </div>
-					</div>
-					<div class="col-md-3">
-						<div class="services services-2 w-100 text-center">
-            	<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-car"></span></div>
-            	<div class="text w-100">
-                <h3 class="heading mb-2">Airport Transfer</h3>
-                <p>Now you can rent our car with pick up location in the parking lot of your destination airport.</p>
-              </div>
-            </div>
-					</div>
-					<div class="col-md-3">
-						<div class="services services-2 w-100 text-center">
-            	<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-transportation"></span></div>
-            	<div class="text w-100">
-                <h3 class="heading mb-2">Whole City Tour</h3>
-                <p>We provide you with posibility to rent a car for a city tour where we offer a plan to visit the principle tourist spots</p>
-              </div>
-            </div>
-					</div>
-				</div>
-			</div>
-		</section>
-	   <!--End Services-->
 
-	  <!--Become Driver-->
 		<section class="ftco-section ftco-intro" style="background-image: url(images/bg_3.jpg);">
 			<div class="overlay"></div>
 			<div class="container">
@@ -302,9 +92,8 @@
 				</div>
 			</div>
 		</section>
-	  <!--End Become Driver-->
 
-	<!--Review-->
+
     <section class="ftco-section testimony-section bg-light">
       <div class="container">
         <div class="row justify-content-center mb-5">
@@ -321,8 +110,9 @@
                   <div class="user-img mb-2" style="background-image: url(images/person_1.jpg)">
                   </div>
                   <div class="text pt-4">
-                    <p class="mb-4">Fast service.Easy in.Easy out.I was impressed.Clean car and great customer service.</p>
+                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                     <p class="name">Roger Scott</p>
+                    <span class="position">Marketing Manager</span>
                   </div>
                 </div>
               </div>
@@ -331,8 +121,9 @@
                   <div class="user-img mb-2" style="background-image: url(images/person_2.jpg)">
                   </div>
                   <div class="text pt-4">
-                    <p class="mb-4">Excellent service.The customer service was great, they listened to my needs and helped me to get into the vehicle I need for my large family.</p>
+                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                     <p class="name">Roger Scott</p>
+                    <span class="position">Interface Designer</span>
                   </div>
                 </div>
               </div>
@@ -341,8 +132,9 @@
                   <div class="user-img mb-2" style="background-image: url(images/person_3.jpg)">
                   </div>
                   <div class="text pt-4">
-                    <p class="mb-4">A great experience!They made it so easy for me and answered all my questions.Quick check in and drop off, the employees were friendly and helpful.No problems at all, and I will definitely rent a vehicle again</p>
+                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                     <p class="name">Roger Scott</p>
+                    <span class="position">UI Designer</span>
                   </div>
                 </div>
               </div>
@@ -373,11 +165,8 @@
         </div>
       </div>
     </section>
-	  <!--End Review-->
 
-    	
-
-    <section class="ftco-counter ftco-section img bg-light" id="section-counter">
+    <section class="ftco-counter ftco-section img" id="section-counter">
 			<div class="overlay"></div>
     	<div class="container">
     		<div class="row">
