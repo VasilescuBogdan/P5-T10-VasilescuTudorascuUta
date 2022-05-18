@@ -1,0 +1,69 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject UserManager<CarRentingAsp.Models.User> UserManager
+@inject SignInManager<CarRentingAsp.Models.User> SignInManager
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Car Renting</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="~/css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/animate.css">
+    
+    <link rel="stylesheet" href="~/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="~/css/magnific-popup.css">
+
+    
+
+    <link rel="stylesheet" href="~/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="~/css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="~/css/flaticon.css">
+    <link rel="stylesheet" href="~/css/icomoon.css">
+    <link rel="stylesheet" href="~/css/style.css">
+</head>
+@{
+    var message = TempData["AlertMessage"] ?? string.Empty;
+}
+<body>
+    
+    <div class="container ">
+        <main role="main" class="pb-3">
+            <br />
+            <br />
+            <br />
+            <br />
+            @RenderBody()
+        </main>
+    </div>
+    <script src="~/js/jquery.min.js"></script>
+  <script src="~/js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="~/js/popper.min.js"></script>
+  <script src="~/js/bootstrap.min.js"></script>
+  <script src="~/js/jquery.easing.1.3.js"></script>
+  <script src="~/js/jquery.waypoints.min.js"></script>
+  <script src="~/js/jquery.stellar.min.js"></script>
+  <script src="~/js/owl.carousel.min.js"></script>
+  <script src="~/js/jquery.magnific-popup.min.js"></script>
+  <script src="~/js/aos.js"></script>
+  <script src="~/js/jquery.animateNumber.min.js"></script>
+  <script src="~/js/bootstrap-datepicker.js"></script>
+  <script src="~/js/jquery.timepicker.min.js"></script>
+  <script src="~/js/scrollax.min.js"></script>
+  <script src="~/js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    @RenderSection("Scripts", required: false)
+    <script type="text/javascript">
+        var message = '@message';
+        if(message)
+            alert(message);
+    </script>
+</body>
+</html>

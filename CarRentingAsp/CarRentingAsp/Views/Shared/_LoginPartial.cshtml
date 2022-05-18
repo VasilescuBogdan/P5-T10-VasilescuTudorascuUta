@@ -1,0 +1,52 @@
+﻿@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<User> SignInManager
+@inject UserManager<User> UserManager
+
+<ul class="navbar-nav">
+
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <li class="nav-item">
+            <a id="manage" class="nav-link text-dark" asp-area="identity" asp-page="/account/manage/index" title="manage">Hello @UserManager.GetUserName(User)!</a>
+        </li>
+        <li class="nav-item">
+            <form id="logoutform" class="form-inline" asp-area="identity" asp-page="/account/logout" asp-route-returnurl="@Url.Action("IndexGuest", "CarRentingGuest", new { area = "" })">
+                <button id="logout" type="submit" class="nav-link btn btn-link text-dark">logout</button>
+            </form>
+        </li>
+    }
+    else
+    {
+        <li class="nav-item">
+            <a class="nav-link text-dark" id="register" asp-area="identity" asp-page="/account/register">Register</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" id="login" asp-area="identity" asp-page="/account/login">Login</a>
+        </li>
+    }
+</ul>
+
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+@if (SignInManager.IsSignedIn(User))
+{
+    <script>
+        $(document).ready(function () {
+            var loginPrompt = localStorage.getItem("loginPrompt")
+            if (loginPrompt != 1) {
+                alert(" Login operation done with success! Welcome back !")
+                localStorage.setItem("loginPrompt", 1)
+            };
+        });
+    </script>
+}
+else
+{
+    <script>
+        $(document).ready(function () {
+            localStorage.setItem("loginPrompt", 0);
+        });
+    </script>
+}
